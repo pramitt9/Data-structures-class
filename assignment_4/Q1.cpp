@@ -30,7 +30,8 @@ public:
             cout << "Queue Overflow! Cannot insert " << x << endl;
             return;
         }
-        if (front == -1) front = 0; // first element
+        if (front == -1)
+         front = 0; 
         arr[++rear] = x;
         cout << x << " enqueued successfully.\n";
     }
